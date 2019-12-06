@@ -4,6 +4,13 @@ A simple `terraform module` to provision a empty k8s cluster, default setup crea
 
 You can then use `D2iQ konvoy` or `kubeadm` to install `kubernete` in this cluster. 
 
+## 0. Prereq
+
+You need to prep a `ssh x509 certs` pair under this project folder. Example like:
+
+```
+ssh-keygen -P "" -f key_name
+```
 
 ## 1. module init
 
